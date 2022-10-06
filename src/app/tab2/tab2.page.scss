@@ -1,22 +1,72 @@
 .botao1{
-  --background: #6495ED;
-  --border-radius: 0%;
-  width: 55px;
-  height: 55px;
-
+  --background: rgb(10 10 10);
+  padding: 0;
+  margin: 0;
+  --border-radius: 0px;
+  height: auto;
 }
 
-.botao3{
-  --background: #2845a5;
-  --border-radius: 0%;
-  width: 55px;
-  height: 55px;
-
-}
 .botao2{
-  --background: #4169E1;
-  --border-radius: 0%;
-  width: 55px;
-  height: 55px;
+  padding: 0;
+  margin: 0;
+  --border-radius: 0px;
+  height: auto;
+  --background: #141313;
+}
+
+.botao4{
+
+  --border-radius: 0px;
+  --background:#1f1f1f;
+  --box-shadow: 0px;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 74%;
+  row-gap: 2px;
+  column-gap: 2px;
+}
+
+.auau{
+  justify-content: space-around;
+  display: flex;
+}
+
+.content{
+  --background: #1f1f1f;
+}
+
+.conta{
+  background-color: #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
+}
+
+.numero{
+
+  font-size: 2vh;
+  padding-bottom: 1rem;
+  margin: 0;
+  color: #92949c;
 
 }
+
+.resultado{
+
+  font-size: 5vh;
+    padding: 0;
+    color: white;
+    margin: 0;
+
+}
+
+.aaa:hover{
+  --background: #1E90FF;
+}
+
